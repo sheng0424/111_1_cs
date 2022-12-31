@@ -1,25 +1,25 @@
 # 111_1_cs
-**什麼是 Git？**
+## 什麼是 Git？
 1.免費、開源專案管理工具
 2.記錄版本更動情形
 3.分散式系統
 
-**Linux 是一種自由開放原始碼的類 Unix 作業系統**
+## Linux 是一種自由開放原始碼的類 Unix 作業系統
 廣泛運用於伺服器和嵌入式系統中
 具有可移植性的 Open Source 的作業系統，它的程式碼可以被修改適合在各種機器上運行
 目前主流的 Linux 發佈版本包括：Debian、Fedora、CentOS、Ubuntu 等
 
-**awk 文字分析工具**
+## awk 文字分析工具
 常用在對文字和資料進行分析處理
 檔案逐行的讀入
 
-**awk 語法**
+## awk 語法
 常用引數
 -F 指定分隔符(可是字串或正規表達法)，預設是空白(space)
 -f 從指令碼檔案(awk script)中讀取awk命令
 -v var=value賦值變數，將外部變數遞給awk
 
-**awk 參數**
+## awk 參數
 $0       當前record（列、橫行）
 $1~$n   當前record的第 N 個欄位
 FS       輸入field直欄分隔符（-F相同作用）預設空格
@@ -29,7 +29,7 @@ NR      record 數，就是行號，預設從 1 開始
 OFS    輸出欄位分隔符，預設空格
 ORS     輸出record分割符，預設換行符
 
-**Sed指令**
+## Sed指令
 option：以 - 符號開頭的功能，如 -n、-r、-i，可省略
 n1,n2：代表開始行數和結尾行數，不輸入代表每行都會執行command
 command：進行的動作，如s, a, c, d, i
@@ -37,7 +37,7 @@ pattern：給command使用的參數
 replacement：當使用s指令時會使用
 flag：當使用s指令時會使用
 
-**Grep, Awk, Sed比較**
+## Grep, Awk, Sed比較
 grep：文字搜尋工具
 可用正規表達法，找出匹配的內容
 sed ：是一種線上編輯器
@@ -49,7 +49,7 @@ awk：文字分析工具
 主要用在對文字和資料進行分析處理，以空格為預設分隔符號
 同時也是程式語言◆用於處理有欄位規則的行內內容，並支援格式化輸出
 
-**Git Flow 分支應用**
+## Git Flow 分支應用
 主要的分支有master、develop、hotfix、release以及feature
 各種分支負責不同的功能
 Master以及Develop這兩個分支又被稱做長期分支，會一直存活在整個 Git Flow 裡
